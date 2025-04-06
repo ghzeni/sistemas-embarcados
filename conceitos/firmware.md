@@ -1,0 +1,1 @@
+software embutido responsável por controlar o funcionamento básico de um dispositivo eletrônico
