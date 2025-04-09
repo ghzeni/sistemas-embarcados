@@ -18,6 +18,9 @@ Na situação em que a execução está parada na primeira linha da função mai
 _A que se refere este relatório. Qual o experimento, objetivos do experimento,
 objetivos de aprendizado._
 
+O objetivo desse relatório é documentar as etapas de desenvolvimento de um experimento realizado usando a placa *Tiva C Series EK-TM4C1294XL*. O experimento consiste em desenvolver uma aplicação embarcada que funcione como um jogo:
+
+
 # Planejamento das fases do processo de desenvolvimento
 _Liste a sequência de etapas a serem seguidas para resolução deste Lab. Observe
 um slide do enunciado a respeito deste planejamento._
