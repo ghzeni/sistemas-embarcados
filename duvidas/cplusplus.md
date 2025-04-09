@@ -1,0 +1,1 @@
+Não entendi essa variável __cplusplus
