@@ -1,3 +1,6 @@
 [submodule "projetos/MateusGustavo_ELEW32"]
 	path = projetos/MateusGustavo_ELEW32
 	url = git@github.com:mateuspereiragomes/MateusGustavo_ELEW32.git
+[submodule "projetos/dougrenaux_ELEW32_public"]
+	path = projetos/dougrenaux_ELEW32_public
+	url = git@github.com:dougrenaux/dougrenaux_ELEW32_public.git
