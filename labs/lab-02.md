@@ -25,6 +25,16 @@ O objetivo desse relatório é documentar as etapas de desenvolvimento de um exp
 _Liste a sequência de etapas a serem seguidas para resolução deste Lab. Observe
 um slide do enunciado a respeito deste planejamento._
 
+1. Definição dos requisitos funcionais e não funcionais do projeto.
+2. Estudo da plataforma de Software (TivaWare).
+3. Estudo das bibliotecas e exemplos existentes no TivaWare.
+4. Criação do diagrama de blocos do projeto.
+5. Separação da solução em módulos.
+6. Criação do projeto no Keil uVision.
+7. Implementação do código em C.
+8. Testes e depuração do código.
+9. Entrega do código e do relatório.
+
 # Definição do problema a ser resolvido
 _Descreva o problema a ser resolvido sem falar da solução a ser elaborada para resolver este problema._
 
@@ -100,18 +110,23 @@ Um projeto bem elaborado deve incluir as seguintes atividades:
 Requisitos funcionais:
 RF1 - O jogo deve ligar o LED D1 para informar ao jogador o início da contagem de tempo.
 RF1.1 - O LED deve ser aceso até 1 segundo após o início da operação da placa.
-RF2 - O jogo usa o botão SW1 para entrada de dados pelo usuário.
+RF2 - O jogo deve utilizar o botão SW1 para entrada de dados pelo usuário.
 RF3 - O jogo deve apresentar a contagem de tempo no Terminal Serial indicando o número de clocks entre o LED acender e o botão SW1 ser pressionado e o valor de tempo correspondente em ms.
 
 Requisitos e Restrições não funcionais:
 RNF 1 - O limite superior de contagem de tempo é o equivalente a 3 segundos.
-RNF 2 - Usar o SysTick como temporizador.
-RNF 3 - Usar funções da TivaWare para acesso a I/O, SysTick e temporização.
+RNF 2 - O SysTick deve ser usado como temporizador.
+RNF 3 - Funções da TivaWare devem ser usadas para acesso a I/O, SysTick e temporização.
 RNF 4 - A solução deve fazer uso de interrupções, obrigatoriamente de GPIO e opcionalmente do SysTick.
 RNF 5 – O vetor de exceções deve estar em memória Flash e não na RAM.
 Prof. Douglas Renaux - disciplina Sistemas Embarcados - UTFPR
 
 Questões:
+- Qual o valor do registrador VTOR e que este valor significa?  
+- Qual o valor corrente do PC e o respectivo significado?  
+- Qual o valor corrente do registrador CONTROL e o que isto significa (examine cada campo deste registrador)  
+- Qual o valor corrente do registrador xPSR e o que isto significa (examine cada campo deste registrador)  
+- Quem está em uso, o MSP ou o PSP? qual seu valor? para onde ele aponta (RAM, Flash)?
 - Qual o papel do registrador VTOR de um Cortex-M4? Em que periférico integrado está localizado?
 - Consultando o valor corrente do VTOR é possível saber se o vetor de exceções está na Flash ou na RAM?
 - Que funções do TivaWare alteram a posição do vetor de exceções? Por quê?
