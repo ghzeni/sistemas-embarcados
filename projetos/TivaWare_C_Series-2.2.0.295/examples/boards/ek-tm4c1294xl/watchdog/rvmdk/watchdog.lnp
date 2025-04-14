@@ -1,0 +1,10 @@
+--cpu=Cortex-M4.fp.sp
+".\rvmdk\buttons.o"
+".\rvmdk\startup_rvmdk.o"
+".\rvmdk\uartstdio.o"
+".\rvmdk\watchdog.o"
+"..\..\..\..\driverlib\rvmdk\driverlib.lib"
+--library_type=microlib --strict --scatter "watchdog.sct"
+--entry Reset_Handler --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\rvmdk\watchdog.map" -o .\rvmdk\watchdog.axf
