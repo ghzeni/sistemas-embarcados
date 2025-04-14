@@ -8,17 +8,18 @@
   <WorkspaceName>ek-tm4c1294xl</WorkspaceName>
 
   <project>
-    <PathAndName>..\..\..\driverlib\driverlib.uvproj</PathAndName>
+    <PathAndName>..\..\..\driverlib\driverlib.uvprojx</PathAndName>
+    <NodeIsActive>1</NodeIsActive>
     <NodeIsCheckedInBatchBuild>1</NodeIsCheckedInBatchBuild>
   </project>
 
   <project>
-    <PathAndName>..\..\..\usblib\usblib.uvproj</PathAndName>
+    <PathAndName>..\..\..\usblib\usblib.uvprojx</PathAndName>
     <NodeIsCheckedInBatchBuild>1</NodeIsCheckedInBatchBuild>
   </project>
 
   <project>
-    <PathAndName>.\adc_udma_pingpong\adc_udma_pingpong.uvproj</PathAndName>
+    <PathAndName>.\adc_udma_pingpong\adc_udma_pingpong.uvprojx</PathAndName>
     <NodeIsCheckedInBatchBuild>1</NodeIsCheckedInBatchBuild>
   </project>
 
@@ -128,7 +129,7 @@
   </project>
 
   <project>
-    <PathAndName>.\project0\project0.uvproj</PathAndName>
+    <PathAndName>.\project0\project0.uvprojx</PathAndName>
     <NodeIsCheckedInBatchBuild>1</NodeIsCheckedInBatchBuild>
   </project>
 

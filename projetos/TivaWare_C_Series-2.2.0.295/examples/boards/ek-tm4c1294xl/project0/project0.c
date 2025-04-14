@@ -102,7 +102,7 @@ main(void)
         //
         // Turn on the LED
         //
-        GPIOPinWrite(GPIO_PORTN_BASE, (USER_LED1|USER_LED2), USER_LED1);
+        GPIOPinWrite(GPIO_PORTN_BASE, (USER_LED1), USER_LED1);
 
         //
         // Delay for a bit
@@ -112,7 +112,7 @@ main(void)
         //
         // Turn on the LED
         //
-        GPIOPinWrite(GPIO_PORTN_BASE, (USER_LED1|USER_LED2), USER_LED2);
+        GPIOPinWrite(GPIO_PORTN_BASE, (USER_LED2), USER_LED2);
 
         //
         // Delay for a bit
