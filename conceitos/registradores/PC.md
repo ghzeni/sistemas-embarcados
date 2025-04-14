@@ -1,0 +1,1 @@
+Registrador do processador que armazena o endereço da próxima instrução a ser executada. Ele é atualizado automaticamente a cada ciclo de instrução, garantindo a sequência correta da execução do programa.

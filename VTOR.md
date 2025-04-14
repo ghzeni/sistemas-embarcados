@@ -1,0 +1,1 @@
+registrador que define a tabela de vetores

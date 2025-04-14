@@ -1,0 +1,1 @@
+"Main Stack Pointer", aponta para a pilha principal.

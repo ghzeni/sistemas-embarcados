@@ -1,0 +1,1 @@
+gerencia modos de operação e permissões do sistema
