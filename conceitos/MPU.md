@@ -1,0 +1,1 @@
+unidade de proteção da memória

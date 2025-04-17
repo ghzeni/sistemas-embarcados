@@ -301,11 +301,11 @@ IntDefaultHandler
 ; the location of the stack and heap.
 ;
 ;******************************************************************************
-    #ifdef __MICROLIB
+    IF :DEF: __MICROLIB
         EXPORT  __initial_sp
         EXPORT  __heap_base
         EXPORT  __heap_limit
-    #else
+    ELSE
         IMPORT  __use_two_region_memory
         EXPORT  __user_initial_stackheap
 __user_initial_stackheap
@@ -314,7 +314,7 @@ __user_initial_stackheap
         LDR     R2, =(HeapMem + Heap)
         LDR     R3, =StackMem
         BX      LR
-    #endif
+    ENDIF
 
 ;******************************************************************************
 ;
